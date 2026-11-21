@@ -25,7 +25,7 @@ if (!$valid) {
     include 'footer.php';
     exit;
 }
-
+// using sitem = match here
 // PHP 8 match expression: each arm returns a product record.
 $item = match ($product) {
     'M1' => ['Chicken Adobo Meal', 85, true],
